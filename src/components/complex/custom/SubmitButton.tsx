@@ -4,7 +4,7 @@ import React from "react";
 
 type SubmitButtonProps = {
   isLoading: boolean;
-  className: string;
+  className?: string;
   children: React.ReactNode;
 };
 
